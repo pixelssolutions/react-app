@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "suda-app",
+    "slug": "suda-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app_icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/app_icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.psbteamsoft.sudaapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.psbteamsoft.sudaapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3af160e0-d434-4ba1-a575-c64b7de4f519"
+      }
+    }
+  }
+}
